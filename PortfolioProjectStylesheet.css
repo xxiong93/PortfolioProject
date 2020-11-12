@@ -3,9 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid  black;
     text-align: center;
-    max-width: 50%;
+    max-width: 100%;
     padding: 5px;
 
 }
@@ -14,3 +13,28 @@
     text-align: left;
     padding: 5px;
 }
+
+h1.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+}
+
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p.about-me-text{
+    padding: 10px;
+    max-width: 75%;
+}
+
+.image-about-me{
+    flex-basis: 50%;
+
+}
+
