@@ -14,6 +14,11 @@
     padding: 5px;
 }
 
+.text-to-right{
+    text-align: right;
+    padding: 5px;
+}
+
 h1.center{
     display: flex;
     justify-content: center;
@@ -25,7 +30,8 @@ h1.center{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    max-width: 100vw;
+    height: auto;
 }
 
 p.about-me-text{
@@ -33,8 +39,15 @@ p.about-me-text{
     max-width: 75%;
 }
 
-.image-about-me{
-    flex-basis: 50%;
 
+.image-homepage{
+    display: flex;
+    flex-basis: 50%;
+    width: 100vw;
+    height: 100vh;
 }
 
+.responsive-image{
+    width: 50vw;
+    
+}
