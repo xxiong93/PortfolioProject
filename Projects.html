@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects</title>
     <link rel="stylesheet" href="PortfolioProjectStyleSheet.css">
 </head>
-<body>
-    <h1>Here are my projects</h1>
-    <nav><!--have this button be at the bottom center-->
+
+<body><!--display projects this way when the screen is small-->
+    <h1 class="center">Here are my projects</h1>
+    <nav class="navbar-left">
+        <!--have this button be at the bottom center-->
         <a href="index.html" alt="This is the homepage.">
             <button>Home</button>
         </a>
+        <a href="AboutMe.html" alt="This page is about me." target="_self">
+            <button>About Me</button>
+        </a>
+        <a href="ContactMe.html" alt="This is my contact page." target="_self">
+            <button>Contact Me</button>
+        </a>
+        <a href="Projects.html" alt="This page will list my projects" target="_self">
+            <button>Projects</button>
+        </a>
     </nav>
-    <div><!--align left of center-->
-        <h2>Past</h2><!--possible do a list for each project instead of just a single link??-->
+    <div class="center projects-align">
         <div>
-            <a href="https://github.com/xxiong93" alt="This takes you to my github page for my past projects" target="_blank">Check out my Github!</a>
+            <h2>Day Trip Generator</h2>
+            <p>This program will create a random day trip for you.  It also allows you to randomly re-select options that you don't like.  Give a try below!</p>
+            <a href="https://github.com/xxiong93/Day_Trip_Generator.git" alt="This is my Day Trip Generator project"
+                    target="_blank">Put together a simple day trip!</a>
+        </div>
+        <div>
+            <h2>Most Wanted App</h2>
+            <p>In this app you can do a search for a specific set of people.  You can search by their given traits, famaily members, and/or descendents.  Try it below!</p>
+            <a href="https://github.com/xxiong93/Most_wanted.git" alt="This is my Most Wanted project"
+            target="_blank">Try out this app!</a>
+        </div>
+        <div>
+            <h2>RPSLS Game</h2>
+            <p>This is variation of the classic game, Rock Paper Scissors, where there are two additional options for you to use, Lizard and Spock.  Play by yourself against a simple AI or another person!</p>
+            <a href="https://github.com/xxiong93/RSPLS_Project.git" alt="This is my Rock,Paper,Scissors,Lizard,Spock project"
+            target="_blank">Play me!</a>
         </div>
 
-    </div>
-    <div><!--align center-->
-        <h2>Current</h2>
-
-    </div>
-    <div><!--align right of center-->
-        <h2>Future</h2>
-
-    </div>
 </body>
+
 </html>
