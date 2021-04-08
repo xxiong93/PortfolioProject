@@ -50,7 +50,7 @@ p.about-me-text{
     /* overflow: auto; */
 }
 .image-homepage{
-    background-image: url("resized_OnTopOfTheWorldThailand_50_75.jpg");
+    background-image: url("../Photos/resized_OnTopOfTheWorldThailand_50_75.jpg");
     background-color: #86afec;
     background-size: contain;
     background-repeat: no-repeat;
