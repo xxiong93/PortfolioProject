@@ -27,19 +27,7 @@ h1.center{
     max-width: 100%;
 }
 
-.about-me-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100vw;
-    height: auto;
-}
 
-p.about-me-text{
-    padding: 10px;
-    max-width: 75%;
-    height: auto;
-}
 
 .contain-text{
     text-align: center;
@@ -61,12 +49,9 @@ p.about-me-text{
     
 }
 
-.about-me-image{
-    width: 50vw;
-    margin: 10px 0px 10px 0px;
-}
 
 .navbar-left{
+    display: inline-block;
     position: fixed;
     top: 0%;
     margin: 5px;
@@ -81,7 +66,7 @@ p.about-me-text{
 
 .navbar-container{
     position: absolute;
-    display: flex;
+    display: inline-block;
     border-bottom: 2px black solid;
     width: 100%;
 
